@@ -2,19 +2,19 @@
 
 ## Table des matières
 
-- [Description](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Fonctionnalités](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Installation](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-    - [Pré-requis](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-    - [Cloner le dépôt](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-    - [Installer les dépendances](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Utilisation](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-    - [Lancer l'application](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-    - [Utilisation de l'interface](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Création de l'exécutable](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Structure du projet](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [Contribuer](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
-- [License](https://www.notion.so/3bdf007b0abf4f1792c2f93be60301f2?pvs=21)
+- [Description](#description)
+- [Fonctionnalités](#fonctionnalités)
+- [Installation](#installation)
+    - [Pré-requis](#pré-requis)
+    - [Cloner le dépôt](#cloner-le-dépôt)
+    - [Installer les dépendances](#installer-les-dépendances)
+- [Utilisation](#utilisation)
+    - [Lancer l'application](#lancer-lapplication)
+    - [Utilisation de l'interface](#utilisation-de-linterface)
+- [Création de l'exécutable](#création-de-lexécutable)
+- [Structure du projet](#structure-du-projet)
+- [Contribuer](#contribuer)
+- [License](#license)
 
 ## Description
 
