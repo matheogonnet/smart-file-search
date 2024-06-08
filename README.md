@@ -69,7 +69,7 @@ python main.py
 - **Barre de recherche** : Utilisez la barre de recherche pour trouver des fichiers ou des dossiers par nom.
 - **Filtrage** : Sélectionnez un type de fichier dans le menu déroulant pour affiner votre recherche.
 - **Réinitialisation** : Cliquez sur le bouton "Réinitialiser" pour effacer tous les filtres.
-- **Sélection de répertoire** : Cliquez sur le bouton "Sélectionner Répertoire" pour changer le répertoire de recherche.
+- **Sélection de répertoire** : Par défault le répertoire est 'Documents', mais cliquez sur le bouton "Sélectionner Répertoire" pour changer le répertoire de recherche.
 - **Prévisualisation** : Cliquez une fois sur un fichier pour avoir un aperçu. Double-cliquez pour l'ouvrir.
 
 ## Création de l'exécutable

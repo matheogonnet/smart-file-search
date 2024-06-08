@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, Menu, ttk
 from PIL import Image
 import customtkinter as ctk  # Import de customtkinter pour l'interface graphique personnalisée
+from pathlib import Path
 from .helpers import resource_path
 from .preview import (preview_image, preview_text, preview_pdf, preview_docx, preview_code, preview_video, preview_generic)
 
@@ -53,7 +54,7 @@ class FileSearchApp:
         self.root.columnconfigure(0, weight=1)
 
         # Initialisation des variables
-        self.search_directory = r"C:\\Users\\mathe\\OneDrive - Groupe INSEEC (POCE)"
+        self.search_directory = str(Path.home() / "Documents")  # Répertoire de départ : dossier "Documents" de l'utilisateur
         self.search_type = tk.StringVar(value="fichier")
         self.file_type = tk.StringVar(value="Tous")
         self.selected_extensions = {
