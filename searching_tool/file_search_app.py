@@ -125,7 +125,7 @@ class FileSearchApp:
         style.configure("Treeview.Heading", font=("Helvetica", 22, "bold"))
 
         # Configuration du bouton d'aide avec une icône
-        self.help_icon_image = Image.open(resource_path("image.png")).resize((20, 20), Image.LANCZOS)
+        self.help_icon_image = Image.open(resource_path("images/image.png")).resize((20, 20), Image.LANCZOS)
         self.help_icon = ctk.CTkImage(light_image=self.help_icon_image, dark_image=self.help_icon_image, size=(20, 20))
         self.help_button = ctk.CTkButton(self.root, text="Aide", image=self.help_icon, compound="left", command=self.show_help, fg_color="#FFA500", hover_color="#FF8C00", text_color="black")
         self.help_button.place(relx=1.0, rely=0.0, x=-10, y=10, anchor='ne')

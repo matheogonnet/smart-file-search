@@ -18,7 +18,7 @@
 
 ## Description
 
-L'application "Recherche de Fichiers et Dossiers Modernisée" est une application de bureau que j'ai développé en Python, permettant de rechercher et de prévisualiser des fichiers et des dossiers sur votre ordinateur. Elle offre une interface utilisateur moderne et intuitive pour faciliter la gestion des fichiers.
+L'application de Recherche Intelligente de Fichiers et Dossiers est une application de bureau que j'ai développé en Python, permettant de rechercher et de prévisualiser des fichiers et des dossiers sur votre ordinateur. Elle offre une interface utilisateur moderne et intuitive pour faciliter la gestion des fichiers.
 
 ## Fonctionnalités
 
@@ -41,7 +41,7 @@ L'application "Recherche de Fichiers et Dossiers Modernisée" est une applicatio
 Clonez le dépôt Git sur votre machine locale :
 
 ```bash
-git clone <https://github.com/matheogonnet/recherche-fichiers-dossiers.git>
+git clone <https://github.com/matheogonnet/smart-file-search.git>
 
 cd recherche-fichiers-dossiers
 ```
@@ -77,7 +77,7 @@ python main.py
 Pour créer un exécutable unique de l'application, utilisez PyInstaller avec la commande suivante :
 
 ```bash
-pyinstaller --onefile --windowed --icon=icone.ico --add-data "image.png;." --add-data "searching_tool/__init__.py;searching_tool" --add-data "searching_tool/file_search_app.py;searching_tool" --add-data "searching_tool/helpers.py;searching_tool" --add-data "searching_tool/preview.py;searching_tool" main.py
+pyinstaller --onefile --windowed --icon=images/icone.ico --add-data "images/image.png;." --add-data "searching_tool/__init__.py;searching_tool" --add-data "searching_tool/file_search_app.py;searching_tool" --add-data "searching_tool/helpers.py;searching_tool" --add-data "searching_tool/preview.py;searching_tool" main.py
 
 ```
 
@@ -102,9 +102,13 @@ project_root/
 ```
 
 - `main.py` : Fichier principal qui initialise l'application.
-- `icone.ico` : Icône de l'application.
-- `image.png` : Image utilisée dans l'application.
+
+- `images/` : Dossier contenant les images et le favicon.
+    - `icone.ico` : Icône de l'application.
+    - `image.png` : Image utilisée dans l'application.
+
 - `requirements.txt` : Liste des dépendances du projet.
+
 - `searching_tool/` : Dossier contenant les modules de l'application.
     - `__init__.py` : Indique que `searching_tool` est un module Python.
     - `file_search_app.py` : Contient la classe `FileSearchApp` et ses méthodes.
